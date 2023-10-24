@@ -3,6 +3,7 @@
 let buttons = document.querySelector("#colors");
 buttons.addEventListener("click", function (event) {
   console.log("el color pulsado es el color: " + event.target.id);
+  event.target.id = document.querySelector()
 
   // Debes asignar el color event.target.id como el color de fondo del pikachu
 });
